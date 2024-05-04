@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Gemunu Libre", sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+body {
+    height: 100svh;
+    background-image: linear-gradient(to bottom right, #5d13e7, #8249b5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fbfbfb;
+    padding: 12px;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.container .text .quote {
+    color: #323232;
+}
+
+.container .text .author {
+    align-self: flex-end;
+    color: rgba(50, 50, 50, 0.7);
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container .buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.container .buttons .creat {
+    width: 100%;
+    max-width: 420px;
+    height: 48px;
+    padding: 12px;
+    background-image: linear-gradient(to bottom right, #5d13e7, #8249b5);
+    font-size: 17px;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+
+.container .buttons .copy {
+    width: 100%;
+    width: 44px;
+    height: 48px;
+    border: 2px solid #8249b5;
+    cursor: pointer;
+}
+
+.container .buttons .copy i {
+    font-size: 18px;
+    color: #8249b5;
+}
